@@ -7,7 +7,7 @@ Once the data was cleaned and prepared, I was able to parse through the assigned
 Once the database was filled, it was simple enough to query it and print to the console.
 
 # Assumptions
-Because the description was pretty open-ended about the input data, I decided that it would be safe to assume that the input file would be clean and formatted the same as the given input data. That is: 6 Strings per line where each line has FIRST NAME, LAST NAME, STREET ADDRESS, CITY, STATE, AGE. To make the data entry easier, I conversted the 6th element in each line to an int. This allowed me to read a file in, rather than hard code data entry values, and also makes is more easily scalable, with assumptions.
+Because the description was pretty open-ended about the input data, I decided that it would be safe to assume that the input file would be clean and formatted the same as the given input data. That is: 6 Strings per line where each line has FIRST NAME, LAST NAME, STREET ADDRESS, CITY, STATE, AGE. To make the data entry easier, I converted the 6th element in each line to an int. This allowed me to read a file in, rather than hard code data entry values, and also makes is more easily scalable, with assumptions.
 
   # Concerns
   As a newly graduated developer, I do not have a lot of Unit Testing experience and feel as though this is the weak point in my final product. I plan to work hard to make this skill stronger and would appreciate any constructive feedback, if possible.
